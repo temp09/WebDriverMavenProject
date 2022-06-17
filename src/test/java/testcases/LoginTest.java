@@ -11,6 +11,8 @@ public class LoginTest {
 	
 	public void setUp(){
 		
+		System.setProperty("webdriver.gecko.driver", "C:\\Users\\amdad\\WebDriverMavenProject\\geckodriver.exe");
+		
 		driver = new FirefoxDriver();
 		
 		
